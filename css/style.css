@@ -169,3 +169,46 @@
   margin: 5px;
   list-style: none;
   align-items: center; }
+
+@media (max-width: 768px) {
+  .logo-box img {
+    height: 10%;
+    width: 15%; }
+  .nav-box {
+    font-size: 14px; }
+  /***Animales en adopcion***/
+  .adopcion-box-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin: 1%; }
+  .adopcion-box-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin: 1%; }
+  .adopcion-box-3 {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin: 1%; }
+  .adopcion-box-4 {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin: 1%; }
+  .adopcion-grid div img {
+    height: 1uto;
+    width: 50%; }
+  /**Quienes Somos**/
+  .quienes-somos-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+  .quienes-somos-box p {
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%; }
+  .quienes-somos-box img {
+    height: 550%;
+    width: 50%; } }
