@@ -1,0 +1,40 @@
+.adopcion-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50%,50%;
+    height: 100vh;
+    background-color: rgb(224, 219, 195);
+    grid-template-areas: 
+    "box-1 box-2"
+    "box-3 box-4"
+    ;
+}
+.adopcion-box-1{
+    display: flex;
+    grid-area: box-1;
+    justify-content: left;
+    align-items: center;
+    
+}
+.adopcion-grid div img{
+    height: 60%;
+    width:30% ;
+}
+.adopcion-box-2{
+    display: flex;
+    grid-area: box-2;
+    justify-content: left;
+    align-items: center;
+}
+.adopcion-box-3{
+    display: flex;
+    grid-area: box-3;
+    justify-content: left;
+    align-items: center;
+}
+.adopcion-box-4{
+    display: flex;
+    grid-area: box-4;
+    justify-content: left;
+    align-items: center;
+}

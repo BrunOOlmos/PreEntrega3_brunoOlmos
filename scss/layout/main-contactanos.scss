@@ -1,0 +1,10 @@
+.contactanos-box{
+    display: flex;
+    height: 89vh;
+    background-color:rgb(224, 219, 195) ;
+    align-items: center;
+    justify-content: center;
+    .contactanos-box form{
+        display: flex;
+    }
+}

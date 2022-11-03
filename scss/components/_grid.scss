@@ -1,0 +1,13 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 10% 75%  ;
+    height: 100vh;
+    width: auto;
+    grid-template-areas: 
+    "header header"
+    "main old-news"
+    "main old-news"
+    "footer footer"
+    ;
+}

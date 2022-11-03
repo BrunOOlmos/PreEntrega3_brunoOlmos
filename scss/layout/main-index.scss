@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    grid-area: main;
+    background-color: rgb(224, 219, 195);
+    justify-content: center;
+}
+
+.novedades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    img{
+        height:auto ;
+        width:auto ; 
+    }
+}
+
+
+.old-news{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(224, 219, 195);
+    grid-area: old-news;
+    justify-content: center;
+    img{
+        display: flex;
+        width: 350px;
+    }
+}
+

@@ -1,0 +1,12 @@
+.footer{
+    display: grid;
+    grid-area: footer;
+    background-color: rgb(228, 177, 100);
+    justify-content: space-between;
+}
+.footer ul li{
+    display: inline;
+    margin: 5px;
+    list-style: none;
+    align-items: center;
+}

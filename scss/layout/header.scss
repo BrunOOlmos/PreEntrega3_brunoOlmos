@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    grid-area: header;
+    background-color: rgb(228, 177, 100);
+    align-items: center;
+}
+
+.logo-box{
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    height: auto;
+    width: 40%;
+}
+
+.logo-box img{
+    width: 5%;
+    height:8% ;
+}
+
+.nav-box{
+    display: flex;
+    justify-content: right;
+    height: auto;
+    width:60% ;
+}
+
+.nav-box ul{
+    display: flex;
+    display: inline;
+    width: 50%;
+}
+
+.nav-box ul li{
+    display: flex;
+    display: inline;
+    margin: 1%;
+    list-style: none;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-box ul li a{
+    text-decoration: none;
+}

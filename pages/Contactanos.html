@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animal House</title>
+        <link rel="stylesheet" href="../css/Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/Logo.jpg" type="image/x-icon">
+    </head>
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <img src="../Img/Logo.jpg" alt="Logo">
+            <h1>Animal House</h1>
+        </div>
+        <div class="nav-box">
+            <ul>
+                <li><a href="../index.html">Novedades</a></li>
+                <li><a href="./Adopcion.html">Animales en adopcion</a></li>
+                <li><a href="./Quienes-somos.html">Quienes Somos</a></li>
+                <li><a href="./Apoyo.html">Apoyanos</a></li>
+            </ul>
+        </div>
+    </header>
+    <Main class="contactanos-box">
+        <Form>
+            <fieldset>
+                <legend>Informacion de contacto</legend>
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" name="Nombre">
+                    <label for="Mail">Mail de contacto</label>
+                    <input type="text" name="Mail" ><br>
+                    <label for="desplegable">Motivo</label>
+                <select name="Motivo">
+                    <option value="adopcion">Quiero Adoptar</option>
+                    <option value="entrega">Encontre un animal herido/quiero dar un animal</option>
+                    <option value="prob_donacion">Tengo problemas para donar</option>
+                    <option value="Trabajar">Quiero formar parte de AnimalHouse</option>
+                </select>
+                <label>¿Desea recibir noticias acerca de nuevos rescates?</label>
+                <input type="checkbox"><br>
+                <label for="comentario">Comentario</label><br>
+                <textarea name="comentario" rows="7" cols="50"></textarea>
+                <input type="submit"><input type="reset"> <br><br>
+            </fieldset>
+        </Form>
+    </main>
+    <footer class="footer">
+        <h3>Seguinos en nuestras redes!</h3>
+        <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+        </ul>
+    </footer>
+</body>
+</html>
